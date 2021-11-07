@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h2 {
+    margin-left: 20px;
+}
+
+header nav {
+    width: 600px;
+    height: 100%;
+}
+
+header ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul > li {
+    font-size: 20px;
+}
+
+#visual {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) ,url("pic/visual.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: 0% 80%;
+    background-size: cover;
+    text-align: center;
+}
+
+#visual > button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(112, 170, 150);
+    border: 3px solid rgba(221, 221, 221);
+    border-radius: 3px;
+    padding: 5px 25px;
+}
+
+#visual > h2 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: rgba(255, 255, 255);
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#visual > p {
+    color: rgba(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#card {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("pic/content.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+    padding-bottom: 130px;
+    margin-top: 40px;
+}
+
+#card > div {
+    margin: 0px auto;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: white;
+}
+
+#card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#card h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+}
+
+#card p {
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.more-button {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.more-button > button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(112, 170, 150);
+    border: 3px solid rgba(221, 221, 221);
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+#game-kit {
+    display: flex;
+    margin-top: 40px;
+}
+
+.kit {
+    width: 60%;
+}
+
+.kit img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.engine {
+    background-color: rgba(112, 170, 150);
+    width: 40%;
+    height: 250px;
+    padding: 50px 20px;
+}
+
+.engine h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.engine p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#list {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("pic/content.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    margin: 40px;
+}
+
+#list > div {
+    width: 400px;
+}
+
+#list li {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+
+i {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 30px;
+}
+
+#footer {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+#footer > h2 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+#footer > p {
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
